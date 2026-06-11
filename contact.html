@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Association Anjaramahasoa</title>
+  <meta name="description" content="Contactez l'Association Anjaramahasoa. Partenaires et bailleurs bienvenus." />
+  <meta property="og:title" content="Contact — Anjaramahasoa" />
+  <meta property="og:description" content="Échangeons sur le projet EPP Ambohibololona." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main>
+    <section class="container-page section">
+      <span class="eyebrow">Contact</span>
+      <h1 class="section-title" style="font-size:2.25rem;">Échangeons</h1>
+      <p class="lead" style="margin-top:1rem;max-width:42rem;">
+        Partenaires et bailleurs bienvenus. Écrivez-nous pour échanger sur le projet ou organiser une visite.
+      </p>
+
+      <div class="grid lg:contact gap-10" style="margin-top:3rem;">
+        <!-- INFO -->
+        <aside class="contact-info">
+          <div class="contact-item">
+            <div class="ico"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div style="min-width:0;"><div class="lbl">Adresse</div><div class="val">II L 2 LRV Ambatokaranana Antananarivo 101, Madagascar.</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="ico"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+            <div style="min-width:0;"><div class="lbl">Email</div><div class="val">contact@anjaramahasoa.org</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="ico"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></div>
+            <div style="min-width:0;"><div class="lbl">Téléphone</div><div class="val"> +261 38 53 171 90</div></div>
+          </div>
+          <div class="contact-note">
+            <p>« Part du Bien Commun »</p>
+            <p>Une réponse vous parviendra sous 48h ouvrées.</p>
+          </div>
+        </aside>
+
+        <!-- FORM -->
+        <form class="form-card" id="contactForm">
+          <div id="formFields">
+            <div class="form-row">
+              <div class="field"><label for="name">Nom complet<span class="req"> *</span></label><input id="name" name="name" type="text" required maxlength="255" /></div>
+              <div class="field"><label for="org">Organisation</label><input id="org" name="org" type="text" maxlength="255" /></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="email">Email<span class="req"> *</span></label><input id="email" name="email" type="email" required maxlength="255" /></div>
+              <div class="field"><label for="phone">Téléphone</label><input id="phone" name="phone" type="tel" maxlength="255" /></div>
+            </div>
+            <div class="field">
+              <label for="profile">Vous êtes</label>
+              <select id="profile" name="profile">
+                <option>Bailleur institutionnel</option>
+                <option>Entreprise / mécène</option>
+                <option>Particulier / donateur</option>
+                <option>Presse / média</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required maxlength="1500" placeholder="Parlez-nous de votre intérêt pour le projet…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="margin-top:1.25rem;">
+              Envoyer le message
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("contactForm");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        document.getElementById("formFields").innerHTML = `
+          <div class="form-success">
+            <div class="ico">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+            </div>
+            <h2>Merci pour votre message</h2>
+            <p>Nous reviendrons vers vous très prochainement.</p>
+          </div>`;
+      });
+    });
+  </script>
+</body>
+</html>
