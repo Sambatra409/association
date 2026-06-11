@@ -108,7 +108,7 @@ function buildFooter() {
         <h4>Contact</h4>
         <ul class="footer-contact">
           <li>${svgIcon("mapPin")} II L 2 LRV Ambatokaranana Antananarivo 101, Madagascar</li>
-          <li>${svgIcon("mail")} contact@anjaramahasoa.org</li>
+          <li>${svgIcon("mail")} contact@anjaramahasoa-association.org</li>
           <li>${svgIcon("phone")} +261 38 53 171 90</li>
         </ul>
       </div>
